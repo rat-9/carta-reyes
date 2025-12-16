@@ -8,12 +8,12 @@ import './style.css'
 const cartaPersonal = {
   titulo: "Queridos Reyes Magos,",
   parrafos: [
-    "Este año ha sido especial de muchas maneras. He intentado portarme lo mejor posible, aunque admito que no siempre ha sido fácil.",
-    "Ha habido momentos difíciles, retos que superar, pero hemos seguido adelante con fuerza y esperanza. He aprendido, he crecido, y he tratado de ser mejor persona cada día.",
-    "Este año he ayudado en casa, he sido responsable con mis estudios, y he intentado cuidar de las personas que quiero. Sé que no soy perfecto, pero prometo seguir mejorándome.",
-    "Con todo el cariño del mundo, os dejo mi lista de deseos. Cualquier cosa que traigáis será recibida con inmensa ilusión y gratitud."
+    "Este años ha sido complicado, entre perlitas y otros problemas ha sido un año duro pero he intentado ser bueno en todo momento.",
+    "Me he esforzado con los estudios, con la familia y con los amigos, y creo que he mejorado mucho en varios aspectos.",
+    "He ayudado mucho en casa (mentira jeje), he sido cariñoso con mis seres queridos y he intentado ser una mejor persona cada día.",
+    "Espero que podáis traerme algunos de los regalos que os pido a continuación. Prometo seguir portándome bien el próximo año.",
   ],
-  firma: "Con amor, tu hijo ❤️"
+  firma: "Con amor, Rafaelito ❤️"
 };
 
 // Tus regalos (edita esto)
