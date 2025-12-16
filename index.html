@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Carta Reyes Magos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" crossorigin src="/carta-reyes/assets/index-CwRqG1u6.js"></script>
+    <link rel="stylesheet" crossorigin href="/carta-reyes/assets/index-DebC2qgJ.css">
+  </head>
+  <body class="min-h-screen overflow-hidden text-gray-800 antialiased touch-none">
+    
+    <div id="snow-container" class="fixed inset-0 pointer-events-none z-0"></div>
+
+    <main class="relative z-10 w-full h-[100dvh] flex flex-col items-center justify-evenly p-4">
+        
+        <header class="text-center mt-2 animate-bounce">
+            <div class="inline-block bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full border border-white/30 shadow-lg">
+                <h1 class="text-3xl md:text-5xl font-bold text-white drop-shadow-md font-christmas tracking-wide">
+                    👑 Carta a los Reyes Magos 👑
+                </h1>
+            </div>
+        </header>
+
+        <div id="card-wrapper" class="relative w-full max-w-[360px] aspect-[9/16] max-h-[65vh] floating perspective-1000">
+            
+            <div id="gift-card" class="glass absolute inset-0 rounded-[2.5rem] shadow-2xl flex flex-col p-4 border border-white/40 transform transition-transform duration-100 origin-bottom">
+                
+                <div class="relative w-full h-[55%] rounded-[2rem] overflow-hidden shadow-inner bg-gray-100 group">
+                    <img id="gift-img" src="" alt="Regalo" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 pointer-events-none">
+                    
+                    <div class="absolute bottom-0 right-0 bg-yellow-400 text-red-900 px-6 py-3 rounded-tl-[2rem] shadow-lg">
+                        <span id="gift-price" class="text-4xl font-extrabold font-christmas tracking-tighter">0€</span>
+                    </div>
+                </div>
+
+                <div class="flex-1 flex flex-col items-center justify-center text-center px-2 py-4">
+                    <h2 id="gift-name" class="text-3xl font-bold text-gray-900 leading-none mb-2 font-christmas">
+                        Cargando...
+                    </h2>
+                    <p class="text-sm text-gray-500 font-sans">
+                        Este año me he portado súper bien 😇
+                    </p>
+                </div>
+                
+                <a id="gift-link" href="#" target="_blank" class="w-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 text-white font-bold py-4 rounded-2xl shadow-green-900/30 shadow-lg flex items-center justify-center gap-3 active:scale-95 transition-all group">
+                    <span class="text-lg">¡Pedir a los Reyes!</span>
+                    <i class="fas fa-external-link-alt group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
+
+            <div class="absolute -inset-4 bg-gradient-to-t from-yellow-500/30 to-transparent blur-2xl -z-10 rounded-full opacity-60"></div>
+        </div>
+
+        <div class="w-full max-w-[360px] flex justify-between items-center px-4 mb-4">
+            <div class="flex flex-col items-center text-white/80">
+                <i class="fas fa-hand-pointer text-2xl move-hand mb-1 rotate-90 md:rotate-0"></i>
+                <span class="text-xs font-light uppercase tracking-widest">Desliza</span>
+            </div>
+            
+            <div class="bg-black/30 backdrop-blur px-4 py-1 rounded-full border border-white/10">
+                <span id="counter" class="text-white font-mono text-sm">1 / 1</span>
+            </div>
+        </div>
+
+    </main>
+
+  </body>
+</html>
