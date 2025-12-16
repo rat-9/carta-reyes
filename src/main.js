@@ -6,37 +6,37 @@ const wishlist = [
   {
     name: "Brazo de Pared para Portatil",
     price: "59'99€",
-    img: "/img/regalo1.jpg", // Asegúrate de que el nombre coincide con tu archivo
+    img: "./img/regalo1.jpg", // Asegúrate de que el nombre coincide con tu archivo
     link: "https://amzn.eu/d/f5IfOLn"
   },
   {
     name: "Spotify Premium - 6 meses",
     price: "66€",
-    img: "/img/regalo2.jpg",
+    img: "./img/regalo2.jpg",
     link: "https://www.game.es/SPOTIFY/MONEDERO-DIGITAL/PREPAGOS/CODIGO-SPOTIFY-DIGITAL-6-MESES/249057"
   },
   {
     name: "Dinero Dinerete",
     price: "€€",
-    img: "/img/regalo3.jpg",
+    img: "./img/regalo3.jpg",
     link: ""
   },
   {
     name: "Cartera Vulkit Negra",
     price: "24'99€",
-    img: "/img/regalo4.jpg",
+    img: "./img/regalo4.jpg",
     link: "https://amzn.eu/d/gSd14av"
   },
   {
     name: "Vale por Silksong edicion coleccionista (aun no ha salido)",
     price: "75€-100€",
-    img: "/img/regalo5.jpg",
+    img: "./img/regalo5.jpg",
     link: "https://www.fangamer.eu/collections/hollow-knight-silksong"
   },
   {
     name: "Bombilla Inteligente",
     price: "14'99€",
-    img: "/img/regalo6.jpg",
+    img: "./img/regalo6.jpg",
     link: "https://amzn.eu/d/4YgSpus"
   },
   // Añade más...
