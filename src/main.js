@@ -59,6 +59,48 @@ const wishlist = [
     img: "./img/regalo6.jpg",
     link: "https://amzn.eu/d/4YgSpus",
     descripcion: "Apagar la luz en la cama o cuando me la dejen encendida"
+  },
+  {
+    name: "Taza Undertale",
+    price: "28€",
+    img: "./img/regalo7.jpg",
+    link: "https://www.fangamer.eu/collections/undertale/products/undertale-ruins-mug",
+    descripcion: "Que no tengo tazas propias"
+  },
+  {
+    name: "Lampara Npstablook",
+    price: "34€",
+    img: "./img/regalo8.jpg",
+    link: "https://www.fangamer.eu/collections/undertale/products/undertale-napstablook-lamp",
+    descripcion: "Para iluminar la habitacion con estilo"
+  },
+  {
+    name: "Peluche Bing Bong",
+    price: "29'99€",
+    img: "./img/regalo9.jpg",
+    link: "https://www.makeship.com/products/bing-bong-plushie",
+    descripcion: "Bing bong es el rey"
+  },
+  {
+    name: "Peluche Pulga Silksong",
+    price: "21'06€",
+    img: "./img/regalo10.jpg",
+    link: "https://www.etsy.com/es/listing/4424844230/munecos-de-el-caballero-y-pulga-hechos-a?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=silksong+plush&ref=sr_gallery-1-2&sr_prefetch=0&pf_from=market&pro=1&content_source=6dd61e9c-25da-487d-a520-8dcc3b8d0018%253ALT086a88bef5c9ae05ce03b23ccfbc81cd6e36cb92&organic_search_click=1&logging_key=6dd61e9c-25da-487d-a520-8dcc3b8d0018%3ALT086a88bef5c9ae05ce03b23ccfbc81cd6e36cb92",
+    descripcion: "Necesito un pulga en mi vida"
+  },
+  {
+    name: "Manta Hollow Knight",
+    price: "52€",
+    img: "./img/regalo11.jpg",
+    link: "https://www.fangamer.eu/collections/hollow-knight/products/hollow-knight-blanket",
+    descripcion: "Manta + Hollow Knight = ❤️"
+  },
+  {
+    name: "Maqueta nave Outer Wilds",
+    price: "99€",
+    img: "./img/regalo12.jpg",
+    link: "https://www.fangamer.com/collections/outer-wilds/products/outer-wilds-scale-model-hearthian-lander",
+    descripcion: "Ojala olvidarme de este juego y volver a disfrutarlo"
   }
 ];
 
