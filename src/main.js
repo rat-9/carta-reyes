@@ -68,7 +68,7 @@ const wishlist = [
     descripcion: "Que no tengo tazas propias"
   },
   {
-    name: "Lampara Npstablook",
+    name: "Lampara Napstablook",
     price: "34€",
     img: "./img/regalo8.jpg",
     link: "https://www.fangamer.eu/collections/undertale/products/undertale-napstablook-lamp",
